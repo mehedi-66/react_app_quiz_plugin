@@ -1,0 +1,1 @@
+{"version":3,"file":"react_app_quiz_plugin/view.js","mappings":";;;;AACAA,OAAO,CAACC,GAAG,CAAE,8DAA+D,CAAC,C","sources":["webpack://react_app_quiz_plugin/./src/react_app_quiz_plugin/view.js"],"sourcesContent":["\nconsole.log( 'Hello World! (from create-block-react_app_quiz_plugin block)' );\n"],"names":["console","log"],"sourceRoot":""}

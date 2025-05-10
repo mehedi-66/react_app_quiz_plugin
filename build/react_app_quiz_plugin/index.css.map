@@ -1,0 +1,1 @@
+{"version":3,"file":"react_app_quiz_plugin/index.css","mappings":";;;AACA;EACC;AAAD,C","sources":["webpack://react_app_quiz_plugin/./src/react_app_quiz_plugin/editor.scss"],"sourcesContent":["\n.wp-block-create-block-react_app_quiz_plugin {\n\tborder: 1px dotted #f00;\n}\n"],"names":[],"sourceRoot":""}
