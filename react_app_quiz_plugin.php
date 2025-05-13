@@ -38,3 +38,4 @@ add_action( 'init', 'create_block_react_app_quiz_plugin_block_init' );
 
 require_once plugin_dir_path(__FILE__) . 'includes/post-type.php';
 require_once plugin_dir_path(__FILE__) . 'includes/meta-boxes.php';
+require_once plugin_dir_path(__FILE__) . 'includes/rest-api.php';

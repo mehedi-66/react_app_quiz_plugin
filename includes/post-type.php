@@ -17,8 +17,9 @@ function quiz_plugin_register_post_type() {
         'has_archive' => true,
         'rewrite' => array('slug' => 'quizzes'),
         'show_in_rest' => true,
-        'supports' => array('title'),
+        'supports' => array('title', 'custom-fields'),
         'menu_icon' => 'dashicons-welcome-learn-more',
+        'rest_base' => 'quiz',
     ));
 }
 add_action('init', 'quiz_plugin_register_post_type');
