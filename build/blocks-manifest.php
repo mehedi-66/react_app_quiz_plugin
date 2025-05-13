@@ -4,7 +4,7 @@ return array(
 	'react_app_quiz_plugin' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'create-block/react_app_quiz_plugin',
+		'name' => 'react-app-quiz/react-app-quiz-plugin',
 		'version' => '0.1.0',
 		'title' => 'React App Quiz Plugin',
 		'category' => 'widgets',
