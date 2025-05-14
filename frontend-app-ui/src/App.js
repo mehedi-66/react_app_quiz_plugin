@@ -7,11 +7,12 @@ import Dashboard from './component/Dashboard'
 
 function App() {
 
-    const { note, setNote } = useContext(NoteContext);
+    const ContextUse = useContext(NoteContext);
 
   return (
     <div>
-      <Dashboard />
+        {ContextUse.startQuiz === 0 && <Dashboard />}
+        {ContextUse.startQuiz === 1 && <QuizCard />}
     </div>
   );
 }

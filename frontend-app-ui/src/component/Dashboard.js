@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext  } from "react";
+import NoteContext from '../context/noteContext'; 
 
 const QuizDashboard = () => {
   const [quizzes, setQuizzes] = useState([]);
   const [loading, setLoading] = useState(true);
+  const ContextUse = useContext(NoteContext);
 
  const fetchQuizzes = async () => {
   try {
@@ -22,7 +24,8 @@ const QuizDashboard = () => {
   }, []);
 
    const handleViewQuiz = (quizId) => {
-    console.log(quizId);
+    ContextUse.setStartQuiz(1); 
+    ContextUse.setQuizId(quizId); 
   };
 
   return (
