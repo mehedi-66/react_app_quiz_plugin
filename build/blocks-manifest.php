@@ -6,10 +6,10 @@ return array(
 		'apiVersion' => 3,
 		'name' => 'react-app-quiz/react-app-quiz-plugin',
 		'version' => '0.1.0',
-		'title' => 'React App Quiz Plugin',
+		'title' => 'App Quiz Block',
 		'category' => 'widgets',
 		'icon' => 'smiley',
-		'description' => 'Example block scaffolded with Create Block tool.',
+		'description' => 'Example to Create Block',
 		'example' => array(
 			
 		),

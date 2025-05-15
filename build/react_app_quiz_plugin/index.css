@@ -4,5 +4,18 @@
 .wp-block-create-block-react_app_quiz_plugin {
   border: 1px dotted #f00;
 }
+.wp-block-create-block-react_app_quiz_plugin .question-list {
+  margin-top: 20px;
+}
+.wp-block-create-block-react_app_quiz_plugin .question-list ol {
+  padding-left: 20px;
+}
+.wp-block-create-block-react_app_quiz_plugin .question-list ol li {
+  margin-bottom: 10px;
+}
+.wp-block-create-block-react_app_quiz_plugin .question-list ol li ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
 
 /*# sourceMappingURL=index.css.map*/
